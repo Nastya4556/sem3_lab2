@@ -1,0 +1,10 @@
+#include "iostream"
+#include "Test.h"
+
+int main()
+{
+	Test test;
+	test.allTests();
+	std::cout << "The tests were successfull\n\n\n";
+	return 0;
+}
